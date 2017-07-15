@@ -1,0 +1,30 @@
+# Basic command
+git clone/init/status/log/checkout/add/commit/branch/merge/tag
+
+# Compare the diffenrence 
+git diff
+git diff --staged
+git diff HEAD -- file
+git diff commit1 commit2
+
+# Redo the action
+git checkout -- file
+git reset HEAD file
+git reset --hard HEAD^
+
+# Delete files
+rm file -> git checkout -- file
+rm file -> git rm file -> git commit 
+
+# Link with the github
+git remote -v(erbose)
+git remote add origin git@github.com:meetleilei/learngit.git
+git push/pull (-u) origin master
+git clone git@github.com:meetleilei/learngit.git
+
+# Some setting
+git config --global user.name "stormzhang"
+git config --global user.email "stormzhang.dev@gmail.com"
+git config --global alias.st status
+git config --global alias.psm 'push origin master'
+
