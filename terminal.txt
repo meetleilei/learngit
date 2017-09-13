@@ -1,0 +1,1 @@
+man/ls/cd/mkdir/rm/cat/mv/cp/ln/alias/echo/source/pwd/
