@@ -1,7 +1,7 @@
 # Basic command
 git clone/init/status/log/checkout/add/commit/branch/merge/tag
 
-# Compare the diffenrence 
+# Compare the diffenrence
 git diff
 git diff --staged
 git diff HEAD -- file
@@ -14,7 +14,7 @@ git reset --hard HEAD^
 
 # Delete files
 rm file -> git checkout -- file
-rm file -> git rm file -> git commit 
+rm file -> git rm file -> git commit
 
 # Link with the github(ssh)
 ssh-keygen -t rsa -C "meetleilei@example.com"
@@ -28,4 +28,5 @@ git config --global user.name "meetleilei"
 git config --global user.email "meetleilei@gmail.com"
 git config --global alias.st status
 git config --global alias.psm 'push origin master'
+
 
